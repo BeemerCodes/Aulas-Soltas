@@ -1,0 +1,81 @@
+Algumas anotações sobre a linguagem markdown
+
+# Titulo
+
+## Titulo 
+
+### titulo
+
+podem se misturar configurações
+ex:
+__*misturar*__
+
+--- ou ***
+
+cria uma linha abaixo do titulo
+
+lista numerada
+
+1. teste 01
+1. teste 02
+1. teste 02
+
+este tipo de lista necessita apenas de um numero e um ponto
+
+para subitens apenas é necessario dar 3 espaços.
+
+lista demarcada
+
+* teste
+* teste
+* teste
+
+faz uma lista com circulos
+se colocar 3 espaços faz uma sublista
+
+pode se usar um traço tambem 
+
+- teste
+- teste
+- teste
+
+lista de tarefaz
+
+- [x]teste
+- [x]teste
+- [ ]teste
+- [ ]teste
+
+a lista sem o x fica com um checkbox vaziu e com o x fica com o checkbox
+marcado.
+
+para colocar links
+
+[oque vai aparecer](o link)
+
+tabelas
+
+num | nome | nota
+---|---|---
+1 | pedro | 8,5
+2 | jose | 10,0
+3 | Bianca | 100,0
+
+Fim da tabela
+
+
+para por comandos
+
+`<h1>Comandos aqui</h1>`
+
+para maiores 
+
+```
+from sla oque importe sla oque
+print('Sla oque bla bla bla')
+```
+
+para por emoji
+ex:
+
+:vilcan_salute
