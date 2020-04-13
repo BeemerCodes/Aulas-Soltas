@@ -1,0 +1,2 @@
+# Aulas-Soltas
+Esse repositório é para guardar aulas soltas para não mistura-las com as de outros estudos.
