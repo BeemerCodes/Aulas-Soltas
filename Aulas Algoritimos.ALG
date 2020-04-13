@@ -54,8 +54,8 @@
 //         eq <- (l1=l2)e(l2=l3)
 //         es <- (l1<>l2)e(l2<>l3)e(l1<>l3)
 //       escreval ("Pode formar um triangulo? ",tri)
-//       escreval ("O triangulo é equilatero? ",eq)
-//       escreval ("O triangulo é escaleno? ",es)
+//       escreval ("O triangulo Ã© equilatero? ",eq)
+//       escreval ("O triangulo Ã© escaleno? ",es)
 //
 //fimalgoritmo
 
@@ -66,12 +66,12 @@
 //      anoatual: inteiro
 //      resposta: inteiro
 //    inicio
-//      escreva ("Quando você nasceu? ")
+//      escreva ("Quando vocÃª nasceu? ")
 //      leia (nascimento)
 //      escreva ("Qual ano atual? ")
 //      leia (anoatual)
 //      resposta <- nascimento - anoatual
-//      escreva ("você tem", resposta, " anos!")
+//      escreva ("vocÃª tem", resposta, " anos!")
 //fimalgoritmo
 
 
@@ -82,7 +82,7 @@
 //       escreva("Quantos reais a serem convertidos? R$:")
 //       leia (real_)
 //       conv_ <- real_ * 4.63
-//       escreva ("Você podera comprar $:", conv_, " dolares!!")
+//       escreva ("VocÃª podera comprar $:", conv_, " dolares!!")
 //fimalgoritmo
 
 //algoritmo "temperatura"
@@ -93,7 +93,7 @@
 //     escreva ("Qual a temperatura em fahrenheits? ")
 //     leia (fah)
 //     res <- (fah*9/5)+32
-//     escreva ("Está", res, " graus celsius!")
+//     escreva ("EstÃ¡", res, " graus celsius!")
 //fimalgoritmo
 
 //algoritmo "porcentagem"
@@ -108,7 +108,7 @@
 //       escreva ("Qual a porcentagem a ser calculada? %")
 //       leia (porc)
 //       resp <- (valor * porc) / 100
-//       escreva ("O total a pagar é:R$", resp, "!")
+//       escreva ("O total a pagar Ã©:R$", resp, "!")
 //fimalgoritmo
 
 //algoritmo "emprestimo"
@@ -123,7 +123,7 @@
 //         escreva ("Quantas vezes quer dividir? x")
 //         leia (parc)
 //         resp <- (emp + jur) / parc
-//         escreva ("Você tera que pagar ",parc, " parcelas de ", resp)
+//         escreva ("VocÃª tera que pagar ",parc, " parcelas de ", resp)
 //fimalgoritmo
 
 
@@ -132,7 +132,7 @@
 //     anonasc, anoat, idade, resp:inteiro
 //
 //    inicio
-//          escreva("Em que ano você nasceu? ")
+//          escreva("Em que ano vocÃª nasceu? ")
 //                      leia (anonasc)
 //          escreva ("Em que ano estamos? ")
 //                  leia (anoat)
@@ -160,7 +160,7 @@
 //       escreval ("Aprovado!!")
 //     senao
 //        se (m >= 5) e (m <= 7) entao
-//           escreval ("Recuperação!")
+//           escreval ("RecuperaÃ§Ã£o!")
 //        senao
 //          escreval ("Reprovado!")
 //       FimSe
@@ -207,13 +207,13 @@
 //fimalgoritmo
 
 
-//algoritmo "criança"
+//algoritmo "crianÃ§a"
 //    var
 //      d: inteiro
 //      valor: real
 //    inicio
 //       escreval ("---------------------------------------")
-//       escreval ("           Criança Esperança           ")
+//       escreval ("           CrianÃ§a EsperanÃ§a           ")
 //       escreval ("---------------------------------------")
 //       escreval ("[1] Para doar R$10")
 //       escreval ("[2] Para doar R$25")
@@ -236,7 +236,7 @@
 //       FimEscolha
 //
 //        escreval ("---------------------------------------")
-//        escreval ("      Sua doação foi de: R$",valor)
+//        escreval ("      Sua doaÃ§Ã£o foi de: R$",valor)
 //        escreval ("            Muito obrigado!             ")
 //        escreval ("---------------------------------------")
 //
@@ -342,7 +342,7 @@
 //
 //    inicio
 //    escreval ("---------------------------------------")
-//    escreval ("Qual numero você deseja ver a tabuada? ")
+//    escreval ("Qual numero vocÃª deseja ver a tabuada? ")
 //    escreval ("---------------------------------------")
 //    leia (n1)
 //    n2 <- 1
@@ -371,7 +371,7 @@
 //          f <- f * c
 //          c <- c - 1
 //          ate (c < 1)
-//          escreval ("O valor fatorial de ", n, " é igual a ", f)
+//          escreval ("O valor fatorial de ", n, " Ã© igual a ", f)
 //          escreva ("Quer continuar [s/n]")
 //          leia (r)
 //          limpatela
@@ -385,7 +385,7 @@
 //    inicio
 //         c <- 1
 //         cont <- 0
-//         escreval ("Qual numero deseja saber se é primo? ")
+//         escreval ("Qual numero deseja saber se Ã© primo? ")
 //         leia (n)
 //         repita
 //
@@ -399,9 +399,9 @@
 //         ate (c > n)
 //
 //         se (cont > 2) entao
-//             escreval ("O numero", n, " não é primo!")
+//             escreval ("O numero", n, " nÃ£o Ã© primo!")
 //         senao
-//              escreval ("O numero", n, " é primo!")
+//              escreval ("O numero", n, " Ã© primo!")
 //         fimse
 //fimalgoritmo
 
@@ -503,9 +503,9 @@
 //    procedimento poui(v: inteiro)
 //    inicio
 //       se (v%2=0) entao
-//         escreval ("O numero é par!")
+//         escreval ("O numero Ã© par!")
 //       senao
-//         escreval ("O numero é impar!")
+//         escreval ("O numero Ã© impar!")
 //       fimse
 //    fimprocedimento
 //    inicio
@@ -515,7 +515,7 @@
 //fimalgoritmo
 
 
-//algoritmo "função"
+//algoritmo "funÃ§Ã£o"
 //     var
 //        v1, v2, s: inteiro
 //
@@ -551,7 +551,7 @@
 //           escreva ("Digite um numero: ")
 //           leia (n)
 //           r <- poui(n)
-//           escreva ("O numero", n, " é ", r)
+//           escreva ("O numero", n, " Ã© ", r)
 //fimalgoritmo
 
 
@@ -573,7 +573,7 @@
 //           escreva ("Digite um numero: ")
 //           leia (n)
 //           f <- fatorial(n)
-//           escreva ("O valor de ", n, "! é igual a ", f)
+//           escreva ("O valor de ", n, "! Ã© igual a ", f)
 //fimalgoritmo
 
 
@@ -587,11 +587,11 @@
 //       escreval ("Total de letras:", compr(n))
 //       escreval ("Seu nome em maiusculo:", maiusc(n))
 //       escreval ("Seu nome em minusculo:", minusc(n))
-//       escreval ("A primeira letra é:", copia(maiusc(n), 1, 1))
-//       escreval ("A ultima letra é:", copia(maiusc(n), compr(n), 1))
-//       escreval ("A letra P se encornta na posição:", pos("p", maiusc(n)))
-//       escreval ("O codigo da letra p é:", asc("p"))
-//       escreval ("A letra com codigo 112 é:", carac(112))
+//       escreval ("A primeira letra Ã©:", copia(maiusc(n), 1, 1))
+//       escreval ("A ultima letra Ã©:", copia(maiusc(n), compr(n), 1))
+//       escreval ("A letra P se encornta na posiÃ§Ã£o:", pos("p", maiusc(n)))
+//       escreval ("O codigo da letra p Ã©:", asc("p"))
+//       escreval ("A letra com codigo 112 Ã©:", carac(112))
 //       para c <- compr (n) ate 1 passo -1 faca
 //            escreva (copia(maiusc(n),c,1))
 //       fimpara
@@ -605,7 +605,7 @@
 //    inicio
 //    tote <- 0
 //       para i <- 1 ate 7 faca
-//           escreva("Digite o ", i, "° valor: ")
+//           escreva("Digite o ", i, "Â° valor: ")
 //           leia (val[i])
 //       se (val[i] % 2 = 0) entao
 //           tote <- tote + 1
@@ -614,7 +614,7 @@
 //       escreva("total de pares foi:", tote)
 //       para i <- 1 ate 7 faca
 //           se (val[i] % 2 = 0) entao
-//           escreval("Valor par na posição ", i)
+//           escreval("Valor par na posiÃ§Ã£o ", i)
 //       fimse
 //    fimpara
 //fimalgoritmo
@@ -688,7 +688,7 @@
 //     inicio
 //        para l <- 1 ate 3 faca
 //            para c <- 1 ate 2 faca
-//                escreva ("Digite o valor da posção [", l, ",", c, "]: ")
+//                escreva ("Digite o valor da posÃ§Ã£o [", l, ",", c, "]: ")
 //                leia (mat[l,c])
 //           fimpara
 //      fimpara
@@ -708,7 +708,7 @@
 //      inicio
 //         para l <- 1 ate 5 faca
 //             para c <- 1 ate 5 faca
-//                 escreva("Digite o valor da posição [", l, ",", c, "]:")
+//                 escreva("Digite o valor da posiÃ§Ã£o [", l, ",", c, "]:")
 //                 leia(valores[l, c])
 //           fimpara
 //       fimpara
@@ -787,7 +787,7 @@
 //    p2l <- 1
 //       para l <- 1 ate 4 faca
 //          para c <- 1 ate 4 faca
-//              escreva("Digite o valor da posição [", l, ",", c, "]: ")
+//              escreva("Digite o valor da posiÃ§Ã£o [", l, ",", c, "]: ")
 //              leia(m[l,c])
 //                  se (l = c) entao
 //                    sdp <- sdp + m[l,c]
@@ -808,9 +808,9 @@
 //          mai <- m[l,3]
 //        fimse
 //      fimpara
-//      escreval("A soma dos valores da diagonal principal é ", sdp)
-//      escreval("O produto da segunda linha è: ", p2l)
-//      escreval("O maior da terceira coluna é:", mai)
+//      escreval("A soma dos valores da diagonal principal Ã© ", sdp)
+//      escreval("O produto da segunda linha Ã¨: ", p2l)
+//      escreval("O maior da terceira coluna Ã©:", mai)
 //fimalgoritmo
 
 
