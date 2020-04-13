@@ -1,0 +1,2 @@
+n1 = float(input('Quantos litros de gasolina você tem? '))
+print('Será possivel andar {:.1f} km por litro!'.format(n1*2.352))
