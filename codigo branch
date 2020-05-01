@@ -1,0 +1,35 @@
+para criar um alias
+git config alias.d "log --oneline --all --graph"
+
+git checkout -b nome da branch == Cria uma nova branch
+git branch                     == Mostra as branchs criadas
+git checkout nome do banch     == Escolhe a branch
+git branch -d nome do branch   == Apaga a branch
+
+merge mantem o historico porem polui com mais commits;
+rebase apaga o historico porem deixa mais limpo;
+rebase é indicado para quando um branch passar de 2;
+
+git stash
+para deixar as modificações guardadas por um tempo
+
+git stash list
+Mostra os arquivos na stash
+
+git stash apply 
+para voltar o arquivo
+
+para criar tags
+git tag -a 1.0.0 -m "msg"
+git push origin master --tags
+
+para voltar uma versão do codigo sem perder a versão "alpha"
+git revert id do commit
+
+apagando branchs e tags remotas
+
+para apagar tags locais
+git tag -d 1.0.0 
+
+para apagar no remoto basta apenas fazer
+git push origin :1.0.0
