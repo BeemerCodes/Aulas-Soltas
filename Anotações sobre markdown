@@ -6,13 +6,60 @@ Algumas anotações sobre a linguagem markdown
 
 ### titulo
 
-podem se misturar configurações
-ex:
-__*misturar*__
+pode se ir ate 6 #
 
---- ou ***
+ou para titulo 1 e dois pode se usar:
 
-cria uma linha abaixo do titulo
+titulo
+=
+
+titulo
+-
+
+apenas funciona no titulo 1 e dois
+
+para quebrar  linha basta dar 2 espaços no local desejado
+
+para espaçar de uma linha para outra basta usar o enter 2 vzs
+
+para negrito: **palavra** ou __palavra__
+
+para itálico: *palavra* ou _palavra_
+
+para itálico e negrito: ***palavra***, **_palavra_** ou __*palavra*__
+
+para riscar uma palavra: ~~palavra~~
+
+para criar uma citação: > palavra
+
+para criar linhas: ***, --- ou ___ 
+também pode se usar: * * * ou - - -
+ou preencher a linha toda:
+***********
+----------
+também pode se fazer uma linha mais fina(apenas github)
+###
+
+para uma lista não ordenada:
+
+* item 01
+* item 02
+* item 03
+
+- teste
+- teste
+- teste
+
+- teste
+- teste
+- teste
+
+subitens: apenas usar tab
+
+* item
+* item
+    * subitem
+* item
 
 lista numerada
 
@@ -20,59 +67,132 @@ lista numerada
 1. teste 02
 1. teste 02
 
-este tipo de lista necessita apenas de um numero e um ponto
+caso começe com o numero 8 por ex o markdown ira continuar após ele:
 
-para subitens apenas é necessario dar 3 espaços.
+8. item
+4. item
+6. item
 
-lista demarcada
+sera:
 
-* teste
-* teste
-* teste
+8 item
+9 item
+10 item
 
-faz uma lista com circulos
-se colocar 3 espaços faz uma sublista
+para ignorar isso:
 
-pode se usar um traço tambem 
+1994\. brasil
 
-- teste
-- teste
-- teste
 
-lista de tarefaz
+1992\. fraça
 
-- [x]teste
-- [x]teste
-- [ ]teste
-- [ ]teste
 
-a lista sem o x fica com um checkbox vaziu e com o x fica com o checkbox
+1870\. chile
+
+necessita utilizar 2 enters ao fim
+
+lista de tarefas (apenas para github)
+
+- [x] teste
+- [x] teste
+- [ ] teste
+- [ ] teste
+
+a lista sem o x fica com um checkbox vazio e com o x fica com o checkbox
 marcado.
 
-para colocar links
+para utilizar links:
 
-[oque vai aparecer](o link)
+[Clique Aqui](https://www.udemy.com/)
 
-tabelas
+para texto alternativo
+
+[Clique Aqui](https://www.udemy.com "Udemy")
+
+também pode se criar uma variável:
+
+[site-url]:
+https://www.udemy.com
+
+para exibir:
+
+[Clique Aqui][site-url]
+
+para utilizar imagens:
+
+![Teste](foto1.png)
+
+com variável:
+
+[imagem]:foto1.png
+
+![teste][imagem]
+
+imagem com link:
+
+[![teste](foto1.png)](https://www.udemy.com)
+
+variáveIS devem ficar ao fim do arquivo
+
+tabelas (o pipe é apenas para estética e n necessita estar alinhado)
 
 num | nome | nota
----|---|---
-1 | pedro | 8,5
-2 | jose | 10,0
-3 | Bianca | 100,0
+----|------|---
+1   | pedro| 8,5
+2   | jose | 10,0
+3   |Bianca| 100,0
 
-Fim da tabela
+para alinhar: a esquerda
+
+num | nome | nota
+:----|:------|:---
+1   | pedro| 8,5
+2   | jose | 10,0
+3   |Bianca| 100,0
+
+para direita
+num | nome | nota
+----:|------:|---:
+1   | pedro| 8,5
+2   | jose | 10,0
+3   |Bianca| 100,0
 
 
-para por comandos
+para o centro
+num | nome | nota
+:----:|:------:|:---:
+1   | pedro| 8,5
+2   | jose | 10,0
+3   |Bianca| 100,0
+
+
+
+
+blocos de código
 
 `<h1>Comandos aqui</h1>`
 
-para maiores 
+para comando que usam a crase
 
 ```
 from sla oque importe sla oque
 print('Sla oque bla bla bla')
+```
+
+também pode-se utilizar apenas tab para criar o bloco de código
+
+    inport math
+    part = input()
+
+
+syntax highlighting:
+```javascript
+// login.jose
+
+const username = 'Roberto';
+const password = 'secret';
+
+login(userame, password);
 ```
 
 para por emoji
