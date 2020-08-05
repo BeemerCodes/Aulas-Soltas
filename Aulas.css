@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+     margin: 0px;
+     padding: 5px;
+}
+
+body {
+      background: rgb(36, 36, 36);
+      height: 100vh;
+      animation: pulse 3.5s linear infinite;
+      
+}
+
+.container-img {
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     opacity: 90%;
+
+}
+
+.container-img:hover {
+     opacity: 100%;
+     
+}
+
+
+h1 {
+     text-align: center;
+     margin: 0px;
+     bottom: 300px;
+     color: rgb(77, 166, 250);
+     text-shadow: 1px, 1px, 2px rgb(255, 255, 255);
+     font-size: 4em;
+}
+
+
+@keyframes pulse {
+     0% {
+         box-shadow: 0 0 0 0 rgb(70, 70, 70);
+     }
+
+     100% {
+         box-shadow: 0 0 0 50px rgba(37, 37, 37, 0);
+     }
+ }

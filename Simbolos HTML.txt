@@ -1,0 +1,34 @@
+&copy;   = copyright
+&lt;     = menor que
+&gt      = maior que
+&le;     = menor igual
+&ge;     = maior igual
+&pound;  = libra
+&yen;    = yene
+&euro;   = euro
+&reg;    = marca registrada
+&trade;  = trade marque
+&permil; = permil
+&sum;    = soma
+&infin;  = infinito
+&times;  = multiplicação
+&plusmn; = +-
+&oplus;  = + em um circulo
+&radic;  = raiz
+&ne;     = diferente
+&delta;
+&Delta;  = delta m 
+&lambda; = lambda
+&omega;  = omega
+&phi;    = phi
+&larr;   = seta pra esquerda
+&rarr;   = seta pra direita
+&uarr;   = seta pra cima
+&darr;   = seta pra baixo
+&harr;   = seta pra ambos lados
+&spades; 
+&clubs;  
+&hearts;  
+&diams;  = nipes de cartas
+ 
+

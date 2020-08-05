@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voz Para Texto!</title>
+    <style>
+        body {
+            background: rgb(40, 189, 194);
+        }
+
+        h2 {
+            color: rgb(41, 41, 41);
+        }
+        div#botao {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="texto"></h2>
+    <div id="botao">
+    <button onclick="captarvoz()">CAPTAR  VOZ!</button>
+    </div>
+<script>
+    function captarvoz() {
+        const recognition = new webkitSpeechRecognition();
+        recognition.interimResults = true;
+        recognition.lang = "pt-BR";
+        recognition.continuous = true;
+        recognition.start();
+        recognition.onresult = function (event) {
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+               if (event.results[i].isFinal) {
+                   document.getElementById('texto').innerText = `Você Disse: ${event.results[i][0].transcript.trim()}`;
+
+               }
+                
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

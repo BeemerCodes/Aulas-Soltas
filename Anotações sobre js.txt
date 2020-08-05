@@ -1,0 +1,192 @@
+Anotações uteis sobre JavaScript
+
+o padrão de devolução é sempre em string para somas
+
+basta convertelas para numero
+
+ha 3 maneiras de fazer isso
+
+Number.parseInt()
+
+ou 
+
+Number.parseFloat
+
+no js mais atual você pode apenas usar Number e deixalo decidir sozinho
+
+EX:
+
+var numero1 = Number(window.prompt("Digite um numero: "))
+var numero2 = Number(window.prompt("Digite outro numero: "))
+window.alert("A soma de " + numero1 + " mais " + numero2 + " gerou " + (numero1+numero2))
+
+isso fara a soma de dois numeros corretamente!
+
+para converter um numero para string basta usar:
+String(num)
+ou
+num.toString
+
+formas de trabalhar com multiplas strings
+
+VAR s = 'JavaScript'
+'Eu Estou Aprendendo s'    // Não faz interpolação
+'Eu Estou Aprendendo'+s    // usa concatenação
+`Eu Estou Aprendendo ${s}` // usa template string
+
+EX:
+
+var numero1 = Number(window.prompt("Digite um numero: "))
+var numero2 = Number(window.prompt("Digite outro numero: "))
+var result = numero1 + numero2
+window.alert(`A soma de ${numero1} e ${numero2} gerou ${result}!!`)
+
+s.length         // quantos caracteres tem a string
+s.toUpperCase()  // joga os caracteres para maiusculo
+s.toLowerCase()  // joga os caracteres paar minusculo
+
+EX:
+
+var nome = window.prompt("Qaula é seu nome? ")
+document.write(`Seu nome tem ${nome.length} letras!`)
+
+OBS: o comando document.write escreve na pagina
+
+para conversão de numeros
+
+EX:
+
+n1 = 123.5
+n1.toFixed(2)
+123.50
+
+n1.toFixed(2).replace(".", ",")
+123,50
+
+para mostras um salario por ex:
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+
+aritméticos
+5+2  = 7    -soma
+5-2  = 3    -subtração
+5*2  = 10   -multiplicação
+5/2  = 2.5  -divisão real
+5%2  = 1    -resto da divisão
+5**2 = 25   -potencia(ao quadrado)
+
+lembrar sobre ordem de precedência!!
+EX:
+5 + 3 / 2 = 6.5
+correto:
+(5 + 3)/2 = 4
+
+precedência:
+()
+**
+* / %
++ -
+
+simplificação (só funciona se for para a msm variavel)
+n = n +  4   n +=  4
+n = n -  4   n -=  4
+n = n *  4   n *=  4
+n = n /  4   n /=  4
+n = n ** 4   n **= 4
+n = n %  4   n %=  4
+
+operadores de incremento servem para adicionar 1 ou subtrair 1
+
+num = num + 1   num++
+num = num - 1   num-- 
+
+pode se usar tbm o simbolo antes de num para assim ele somar ou
+subtrair e depois mostrar o valor
+
+++num
+--num
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
