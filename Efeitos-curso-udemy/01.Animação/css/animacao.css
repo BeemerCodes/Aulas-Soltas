@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#fundo1 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
