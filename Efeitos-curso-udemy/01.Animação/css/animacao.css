@@ -3,8 +3,48 @@
     padding: 0px;
 }
 
+@keyframes anim {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 #fundo1 {
     position: absolute;
     width: 100%;
     height: 100vh;
+    background: url(../img/background4.jpg);
 }
+
+#fundo2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background2.jpg);
+    background-size: cover;
+}
+
+#fundo3 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background3.jpg);
+    background-size: cover;
+}
+
+#fundo4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background.jpg);
+    animation: anim 10s;
+}
+
