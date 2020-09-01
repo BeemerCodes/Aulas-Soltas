@@ -1,0 +1,7 @@
+ANCHOR - Usado para indicar uma seção em seu arquivo
+TODO - Um item que está aguardando conclusão
+FIXME - Um item que requer uma correção de bug
+STUB - Usado para snippets Gerados por padrão
+NOTE - Uma nota importante para uma sessão de código específica
+REVIEW - Um item que precisa de revisão adicional
+SECTION - Usado para definir uma região 
