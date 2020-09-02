@@ -1,0 +1,14 @@
+Neste arquivo você encontra os arquivos utilizados no primeiro módulo do Curso de Introdução ao Blender 3D 2.80, disponibilizado pelo Academy SatellaSoft.
+
+Os arquivos serão utilizados durante o curso, então descompacte e salve em uma paste de fácil acesso.
+
+CURSOS
+Desenvolvimento 3D com Unity: https://www.udemy.com/desenvolvimento-de-jogos-3d-com-unity-2017
+Cenários com Blender: http://udemy.com/criando-cenarios-com-unity-e-blender
+Animações com Unity: https://pay.hotmart.com/N7280373M?off=5dwm6s4x
+Introdução ao Probuilder: https://www.udemy.com/introducao-ao-unity-probuilder/
+
+PLATAFORMAS
+Academy SatellaSoft: https://academy.satellasoft.com
+SatellaSoft: https://satellasoft.com
+Gunnar Correa: http://gunnarcorrea.com
