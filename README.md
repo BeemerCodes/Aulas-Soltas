@@ -1,7 +1,7 @@
 # Aulas Soltas :neckbeard:
 
 
-![](/home/beemer/Documentos/Aulas-Soltas/aulas-soltas.jpg)
+![](aulas-soltas.jpg)
 
 *Esse repositório é para guardar aulas soltas para não mistura-las com as de outros estudos, Pode ser utilizado para estudo de quem se interresar :)*
 
