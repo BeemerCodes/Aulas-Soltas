@@ -1,6 +1,5 @@
 # Aulas Soltas :neckbeard:
 
----
 
 ![](/home/beemer/Documentos/Aulas-Soltas/aulas-soltas.jpg)
 
