@@ -33,7 +33,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo apt install steam -y
 
 ## SECTION Instalando o Ghimp e o photogimp
-sudo snap install gimp -y
 sudo snap install photogimp -y
 
 ## SECTION Instaando o Spotify
@@ -44,9 +43,6 @@ sudo snap install discord -y
 
 ## SECTION Instalando o PopSicle
 sudo flatpak install popsicle -y
-
-## SECTION Istalando o FlameShot
-sudo snap install flameshot -y
 
 ## SECTION Instalando o Vlc
 sudo snap install vlc -y
