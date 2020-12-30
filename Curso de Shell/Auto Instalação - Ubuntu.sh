@@ -42,7 +42,7 @@ sudo snap install spotify -y
 sudo snap install discord -y
 
 ## SECTION Instalando o PopSicle
-sudo flatpak install popsicle -y
+
 
 ## SECTION Instalando o Vlc
 sudo snap install vlc -y

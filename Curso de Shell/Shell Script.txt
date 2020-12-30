@@ -110,7 +110,7 @@ execução sequencial
 || - só executa o segundo caso o primeiro de erro
  
 > - adiciona o conteudo no arquivo
->> - adiciona o coteudo concatenando
+>> - adiciona o conteudo concatenando
 1> - saida padrão
 2> - saida de erro (ambos pode se usar >>)
 2>&1 - o erro vai para o local padrão
@@ -120,12 +120,12 @@ os erros podem se enviados para /dev/null
 < - direciona entrada
 (ex: cat teste.txt | tr a Z ou tr 'a' 'Z' < teste.txt)
 
-Variaveis
+Variáveis
 
 Data=`date` - Data cria a variavel e o comando dentro de crases ira ser o valor nela definido, outro modo seria Date=$(date)
 
-env - reconhece apenas variaveis de ambiente 
-set - reconhece variaveis exportadas
+env - reconhece apenas variáveis de ambiente 
+set - reconhece variáveis exportadas
 
 para exportar
 
@@ -137,9 +137,24 @@ ja as aspas simples protegem tudo
 
 File Globbing
 
+aula* - busca tudo que começe com aula
+*01   - busca tudo que acabe com 01, n importa como começe
+{aula, AULA}* - busca as palavras aula tanto como maiúscula como minuscula
+aula[12345] - busca aula que acabe com final entre 1 e 5
+aula[1-5] - a mesma busca acima
+aula? - busca algo que tenha apenas 1 caractere apos(pode se adicionar mais ???)
 
+expressões regulares
 
-
+"[Ll]inux" - como no file globbing, ira buscar por linux mesmo que seja maiúsculo ou minúsculo
+"^linux" - ira buscar palavras que começem com linux
+"linux$" - ira buscar palavras que acabem com linux
+"l[a-i]x*" - o * significa que a letra x pode se repetir ou nem existir
+"l[a-i]x+" - o + significa que a letra x ira aparecer 1 ou mais vezes
+"l[a-i]x?" - o ? significa que a letra x aparecera uma ou nenhuma vez
+"O.Linux" - busca com qualquer letra onde esta o ponto(pode se usar mais de um ...)
+"O.*Linux" - busca qualquer coisa no local do ponto, desde que exista a letra O
+para selecionar o . - "linux\."
 
 
 
