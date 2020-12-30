@@ -1,9 +1,6 @@
 todo shell script começa com 
 #!/bin/bash
 
-pipe ( | ) joga a saida de um comando para outro
-
-
 comando ps
 lista os processos da maquina
 ps axu - lista todos os processos
@@ -104,3 +101,91 @@ gera uma sequencia de numeros
 
 comando expr 
 faz operações
+
+execução sequencial
+
+| - joga a saida do comando para a entrada do proximo
+; - executa de maneira sequencial 
+&& - só executa o segundo comando caso o primeiro esteja ok
+|| - só executa o segundo caso o primeiro de erro
+ 
+> - adiciona o conteudo no arquivo
+>> - adiciona o coteudo concatenando
+1> - saida padrão
+2> - saida de erro (ambos pode se usar >>)
+2>&1 - o erro vai para o local padrão
+
+os erros podem se enviados para /dev/null
+
+< - direciona entrada
+(ex: cat teste.txt | tr a Z ou tr 'a' 'Z' < teste.txt)
+
+Variaveis
+
+Data=`date` - Data cria a variavel e o comando dentro de crases ira ser o valor nela definido, outro modo seria Date=$(date)
+
+env - reconhece apenas variaveis de ambiente 
+set - reconhece variaveis exportadas
+
+para exportar
+
+export Var ou export Var=teste
+
+use de aspas
+aspas duplas protegem todos os caracteres exceto $ ` /
+ja as aspas simples protegem tudo
+
+File Globbing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
