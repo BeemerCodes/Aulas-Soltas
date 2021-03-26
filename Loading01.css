@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(48, 48, 48);
+}
+
+.load {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.load .dot {
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  margin: 10px;
+  display: inline-block;
+  background-color: rgb(6, 205, 240);
+  transform: scale(0.2);
+  animation: animacao 1.4s infinite;
+}
+
+/* inicio da animação */
+
+.dot:nth-child(2) {
+   animation-delay: 0.2s; 
+}
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.dot:nth-child(4) {
+  animation-delay: 0.7s;
+}
+
+.dot:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.dot:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+@keyframes animacao {
+  0%, 100% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+}

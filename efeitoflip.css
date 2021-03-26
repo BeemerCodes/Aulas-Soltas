@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+}
+
+div.flip-container {
+  width: 800px;
+  height: 450px;
+  perspective: 1500px;
+}
+
+div.flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+div.flip-container:hover > div.flip {
+  transform: rotateY(180deg);
+}
+
+div.flip-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+div.flip-back {
+  background: linear-gradient(25deg, #5186ea, #7990cc, #909bae, #9fa790);
+  box-sizing: border-box;
+  padding: 30px;
+  transform: rotateY(180deg);
+}
+
+div.flip-front img {
+  width: 100%;
+  height: 100%;
+}
+
+div.flip-back h2 {
+  text-align: center;
+  font: bold 40px Arial, sans-serif;
+  color: rgb(70, 70, 70);
+}
+
+div.flip-back p {
+  font: normal 30px Arial, sans-serif;
+  color: rgb(70, 70, 70);
+  line-height: 50px;
+}

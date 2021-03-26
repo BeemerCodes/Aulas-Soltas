@@ -1,0 +1,59 @@
+a.button {
+  /* posicionando o elemento no centro da tela */
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+
+  /* dimensionando o elemento e posicionando os elementos filhos */
+  display: flex;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+
+  /* aplicando os estilos ao botão */
+
+  background-color: #ccc;
+  border-radius: 15px;
+  box-shadow: inset 0 0 6px 1.5px #0006;
+  text-decoration: none;
+  font: bold 25px Arial, sans-serif;
+  color: #111;
+
+  /* o overflow hidden é usado para esconder a parte do elemento interno */
+
+  overflow: hidden;
+  transition: 250ms;
+}
+
+body {
+  background-color: #222;
+}
+
+a.button > div.expand {
+  /* dimensionando o elemento para que ele não apareça e aplicando estilos */
+  width: 0;
+  height: 0;
+  background-color: #0f6;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  transition: 250ms;
+}
+
+a.button:hover {
+  box-shadow: inset 0 0 5px 1px #0006, 0 0 10px 1px #0f48;
+  transition: 0.5s;
+}
+
+a.button:hover > div.expand {
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+a.button:active > div.expand {
+  background-color: #8fa;
+  transition: 250ms;
+}
