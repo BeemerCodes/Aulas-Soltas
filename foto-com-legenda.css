@@ -1,0 +1,40 @@
+body {
+  background-color: #eee;
+}
+
+div.container {
+  width: 600px;
+  height: 400px;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+img.image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+div.image-info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0008;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal 20px Arial, sans-serif;
+  color: #fff;
+  filter: opacity(0);
+  transition: filter 500ms;
+}
+
+div.container:hover div.image-info {
+  filter: opacity(1);
+}
